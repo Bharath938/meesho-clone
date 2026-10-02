@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme{
+    /* brand / Buttons */
+    --color-primary: #86198f;
+    --color-primary-hover: #701a75;
+    --color-primary-soft: #4b5563;
+
+    /* text */
+    --color-text-base: #1f2937;
+    --color-text-muted: #6b7280;
+    --color-text-on-primary: #ffffff;
+
+    /* border / surfaces */
+
+    --color-base: #e5e7eb;
+    --color-surface: #ffffff;
+
+    /* font */
+    --font-sans: "DM Sans", sans-serif;
+
+}
