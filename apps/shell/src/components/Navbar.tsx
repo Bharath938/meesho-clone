@@ -4,8 +4,10 @@ import { FiShoppingCart } from "react-icons/fi";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-8 h-20 border">
-      <span className="text-4xl font-medium cursor-pointer">meesho</span>
+    <nav className="flex items-center justify-between px-8 h-20 border border-primary-soft">
+      <span className="text-4xl text-primary font-medium cursor-pointer">
+        meesho
+      </span>
       <div className="flex w-130 border h-10 items-center gap-3 rounded-md px-2">
         <CiSearch className="size-7 text-gray-500" />
         <input
@@ -16,7 +18,7 @@ function Navbar() {
           className="w-full h-full outline-none"
         />
       </div>
-      <div className="flex flex-col justify-center items-center cursor-pointer">
+      <div className="flex flex-col justify-center hover:text-primary items-center cursor-pointer">
         <IoPersonOutline className="size-7" />
         <span>Profile</span>
       </div>
